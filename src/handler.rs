@@ -70,7 +70,7 @@ pub async fn add_student_handler(
 
     let note_response = serde_json::json!({
             "status": "success",
-            "data": "Student added successfully."
+            "data": "Student added successfully.."
     });
     Ok(Json(note_response))
 }
